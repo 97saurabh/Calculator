@@ -2,7 +2,7 @@
 	<head>
         <link rel = "icon" href = "https://raw.githubusercontent.com/97saurabh/Calculator/master/logo.png" 
         type = "image/x-icon"> 
-		
+		<link rel="stylesheet" type="text/css" href="style.css">
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:600,700" rel="stylesheet">
         <title>Calculator | Saurabh Singh </title>
         <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Indie+Flower&display=swap" rel="stylesheet">
@@ -11,6 +11,24 @@
 body{
 	font-family: 'Open Sans',sans-serif;
 	background-color: blanchedalmond;
+	margin-top: 50px;
+}
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color:black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
 }
 #calculator{
 	width: 320px;
@@ -140,7 +158,23 @@ button:nth-child(20){
 					<button class="operator" id="=">=</button>
 				</div>
 			</div>
+			<div style="margin-left: 25em; padding-top: 10px;">
+			
+				<i>Created By :</i>
+				<p>
+					<font style="font-size:25px;font-weight: 200;font-family: 'Indie Flower', cursive;"><a href="https://github.com/97saurabh"> Saurabh Singh </a></font>
+				</p>
+				
+
+			</div>
 		
+
+
+
+
+
+
+
 		<script>
             function getHistory(){
 	return document.getElementById("history-value").innerText;
